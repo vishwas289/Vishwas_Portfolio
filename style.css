@@ -311,7 +311,6 @@ header {
     border-radius: var(--radius-2);
     text-align: center;
     transition: var(--transition);
-    cursor: default;
 }
 
 .about__card:hover {
@@ -356,6 +355,24 @@ header {
     font-size: 1.2rem;
 }
 
+
+.about__card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit; /* Ensure the link inherits the text color */
+    cursor: pointer;
+}
+
+.about_card-link:hover .about_card {
+    background: var(--color-primary);
+    color: var(--color-gray-100);
+    transform: translateY(-0.5rem);
+}
+
+.about_card-link:hover .about_card i {
+    background: var(--color-gray-100);
+    color: var(--color-primary);
+}
 
 /* SKILLS */
 .skills__container {
