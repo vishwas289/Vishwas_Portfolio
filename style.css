@@ -418,9 +418,10 @@ header {
     color: var(--color-primary);
 }
 .click-indicator {
-    display: inline-block;
+    display: flex;
     margin-top: 10px;
     padding: 2px 4px;
+    flex-direction: column;
   }
 /* SKILLS */
 .skills__container {
