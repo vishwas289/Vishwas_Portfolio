@@ -176,10 +176,9 @@ nav {
 }
 
 .nav__logo {
-    width: 2.4rem;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    overflow: hidden;
+   font-size: x-large;
+   color: var(--color-gray-900);
+   font-weight: bold;
 }
 
 .nav__menu {
